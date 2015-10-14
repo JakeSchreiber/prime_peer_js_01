@@ -96,7 +96,8 @@ while(i > 0){
 function firstFunction(val){
 	val = val.toString();
 	if(val.length > 1){
-		val = val.slice(1);
+		val = val.slice(1); // slice (a,b) returns the elements of the string from a up to and including b. 
+							// without an end point slice will go to the end of the string
 	}
 	value = val;
 	return val;
